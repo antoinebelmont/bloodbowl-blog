@@ -28,7 +28,4 @@ jobs:
             cd ~/bloodbowl-blog
             git pull origin main
             git status
-            pm2 delete all
-            pm2 start npm --name "bloodbowl-blog" -- run "start"
-            pm2 restart bloodbowl-blog
-            pm2 save
+            npm run build
