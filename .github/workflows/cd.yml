@@ -29,4 +29,5 @@ jobs:
             git pull origin main
             git status
             CI=true npm test
+            CI=true npm run build
             npm run build
