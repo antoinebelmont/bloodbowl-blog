@@ -28,4 +28,5 @@ jobs:
             cd ~/bloodbowl-blog
             git pull origin main
             git status
+            npm run test
             npm run build
