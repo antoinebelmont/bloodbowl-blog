@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "test": "react-scripts test",
+    "test": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js test",
     "eject": "react-scripts eject",
     "build": "react-scripts build"
   },
